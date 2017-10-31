@@ -2,7 +2,7 @@
 As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
 For (guitar or ukulele) chord charts on the site Ultimate Guitar (www.ultimate-guitar.com/).
 
-__toFlats__ works on EVO engine only, currently unavailable for contributors but accessible for others via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1).
+__toFlats__ works on EVO engine only, currently unavailable for contributors but accessible for others via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). Due to lack of access as a contributor, progress has been halted for the time being.
 #### About EVO ####
 The EVO engine runs in a mostly-white background, includes an embedded YouTube interface, and can run in multiple languages (in an early beta). It also includes useful information about contributions and sorts contribution by both artist, name, and ultimately, type:
 - In a list of artist's contributions, all contributions with names N into one link:
