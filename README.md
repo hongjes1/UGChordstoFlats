@@ -72,7 +72,7 @@ A minor scale based around the note D would be as follows:
 D E F G A Bb C (D)
 
 #### The UG Problem ####
-While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to addres this.
+While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to address this.
 
 # Known bugs and shortcomings
 - The javascript event onMouseOver will reset the chord names to their original value. This has something to do with external code.
