@@ -39,7 +39,7 @@ The square b that represented the solfeggio syllable mi in the G hexachord, a wh
 
 The basis of 12 notes had already been made with the practice of __mutation__, where singers would start hexachords on nontraditional notes. The development of major and minor tonalities much later, along with staff notation and temperament, would further cement the use of all 12 notes in music, as well as define practices for note nomenclature within the major and minor systems.
 
-A major scale based around N is created thus:
+A __major scale__ based around N is created thus:
 
 N(+0) N+2 N+4 N+5 N+7 N+9 N+11 (N+12, octave, same note but higher)
 
@@ -63,7 +63,7 @@ Continue the process, and the following will arise:
 
 B C# D# E F# G# A# (B)
 
-Minor keys also follow the note letter conditions, but the formula is as follows instead:
+__Minor scales__ also follow the note letter conditions, but the formula is as follows instead:
 
 N(+0) N+2 N+3 N+5 N+7 N+8 N+10 (N+12, octave, same note but higher)
 
