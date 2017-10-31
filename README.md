@@ -1,5 +1,80 @@
-# UGChordstoFlats
-As written, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
+# About UGChordstoFlats
+As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
+For (guitar or ukulele) chord charts on the site Ultimate Guitar (www.ultimate-guitar.com/).
 
-toFlats works on EVO chord engine only
-toFlatsnew works on to-be-updated site
+__toFlats__ works on EVO engine only, currently unavailable for contributors but accessible for others via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1).
+#### About EVO ####
+The EVO engine runs in a mostly-white background, includes an embedded YouTube interface, and can run in multiple languages (in an early beta). It also includes useful information about contributions and sorts contribution by both artist, name, and ultimately, type:
+- In a list of artist's contributions, all contributions with names N into one link:
+![picture alt](https://i.imgur.com/E6ZPltO.png "List of links by song name under artist Sam Smith")
+- Clicking on a song title reveals a list of contributions, sorted by submission type:
+![picture alt](https://i.imgur.com/nj3H02W.png "List of contributions for the song Lay Me Down, sorted by submission type")
+
+__toFlatsnew__ works on to-be-updated site, currently in beta for all contributors. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/p/pvris/whats_wrong_crd.htm) without the changes applied can be found below:
+
+![picture alt](https://i.imgur.com/hcqDIIh.png "Example of a chord chart formatted in the beta.")
+
+# How to use
+1. Open a tab's page. The page should end with "`_crd.htm`"; otherwise, the transposition and chord recognition interfaces do not apply.
+2. Open the console.
+3. Copy/paste the code into the console. Output will look like the below:
+
+![picture alt](https://i.imgur.com/ekfpDOM.png "Example of a chord chart formatted in the beta, code run.")
+
+# Why care? A very brief Western music history/theory primer
+In the Western Classical musical system, there are seven letter names associated with seven pitch classes: A, B, C, D, E, F, and G. Each pitch class includes notes with the same letter name and sound, but just an integer exponential of 2 away.
+Example: in the A = 440 Hz standard, the A pitch class includes 440 Hz (written as A4 in scientific notation), 220 Hz (A3), 55 Hz (A1), and many others as long as they are an exponential of 2 away, particularly in the modern tempered tuning system.
+With the exception of B-C and E-F, each note has another note between them. In terms of musical distance (referred to as _intervals_), E and F are a _half-step_ apart. C and D, on the other hand, are a _whole step_ apart. (In other systems, semitones and (whole) tones, respectively, are used interchangably.) This comprises a 12-tone repeating system.
+
+By the middle ages, a hexachord (six-note) system had been established through the Church, which was the main musical body throughout Europe. These hexachords were centered around the pitches G, C, and F, and used the singing syllables "ut re mi fa sol la", which would change later to more modern solfeggio. As in the note letter names, the distance beetween mi and fa is a half-step. __Guido d'Arezzo__, a monk and music teacher, devised a method to remember the hexachords, commonly called the __Guidonian hand__:
+
+![picture alt](http://78.media.tumblr.com/5da2bde2b397824666715d14bb25974f/tumblr_nlvvy0dIqQ1qblk3mo5_1280.png "a Guidonian hand")
+
+The Greek letter Γ (Gamma) stood for the lowest note according to the hand. Quirks can be found when looking at notation for "B". Look at the top of the pinky finger:
+
+- [a square, stylized 'b'](http://i57.tinypic.com/8wzbis.gif "hard hexachord symbol") in the G (hard) hexachord
+- [a soft, stylized 'b'](http://i57.tinypic.com/351cu9l.gif "soft hexachord symbol") in the F (soft) hexachord
+
+The square b that represented the solfeggio syllable mi in the G hexachord, a whole step away from the preceding A (re), would eventually morph into the natural and sharp symbols in Western notation, the latter which raises the original pitch 1/2-step. Similarly, the soft b that represented the solfeggio syllable fa in the F hexachord, a half-step away from the preceding A (mi), would eventually morph into the flat symbol, which lowers the original pitch 1/2-step.
+
+The basis of 12 notes had already been made with the practice of __mutation__, where singers would start hexachords on nontraditional notes. The development of major and minor tonalities much later, along with staff notation and temperament, would further cement the use of all 12 notes in music, as well as define practices for note nomenclature within the major and minor systems.
+
+A major scale based around N is created thus:
+
+N(+0) N+2 N+4 N+5 N+7 N+9 N+11 (N+12, octave, same note but higher)
+
+where M = N+# is a note in N's scale # half-steps upward from N.
+
+Each major scale invokes each note letter exactly once. So for any scale S, the letters A, B, C, D, E, F, and G must appear exactly once within the scale (barring the octave). So, for a major scale starting on B, starting with the letters in order can help:
+
+B C D E F G A (B)
+
+Then, apply the intervals as required.
+
+B to C is 1/2-step apart, so the C needs to be raised to C#.
+
+-> B C# D E F G A (B)
+
+C# to D is 1/2-step apart, so to make 2 half-steps of space between them, the D needs to be raised to D#.
+
+-> B C# D# E F G A (B)
+
+Continue the process, and the following will arise:
+
+B C# D# E F# G# A# (B)
+
+Minor keys also follow the note letter conditions, but the formula is as follows instead:
+
+N(+0) N+2 N+3 N+5 N+7 N+8 N+10 (N+12, octave, same note but higher)
+
+A minor scale based around the note D would be as follows:
+
+D E F G A Bb C (D)
+
+#### The UG Problem ####
+While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to addres this.
+
+# Known bugs and shortcomings
+- The javascript event onMouseOver will reset the chord names to their original value. This has something to do with external code.
+- Clicking a previously opened chord diagram with the changed name will revert the chord diagram's name to the original value.
+- The code's set of chord names is severely limited and is not at all exhaustive. Example: E, Emaj, EM, and Emajor all will display E major chords (notes E-G#-B), but only chord of the first format are supported.
