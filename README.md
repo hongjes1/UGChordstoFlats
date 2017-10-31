@@ -29,6 +29,7 @@ With the exception of B-C and E-F, each note has another note between them. In t
 By the middle ages, a hexachord (six-note) system had been established through the Church, which was the main musical body throughout Europe. These hexachords were centered around the pitches G, C, and F, and used the singing syllables "ut re mi fa sol la", which would change later to more modern solfeggio. As in the note letter names, the distance beetween mi and fa is a half-step. __Guido d'Arezzo__, a monk and music teacher, devised a method to remember the hexachords, commonly called the __Guidonian hand__:
 
 ![picture alt](http://78.media.tumblr.com/5da2bde2b397824666715d14bb25974f/tumblr_nlvvy0dIqQ1qblk3mo5_1280.png "a Guidonian hand")
+*Color key. Green: G (hard) hexachord. Brown: C (natural) hexachord. Blue: F (soft) hexachord.*
 
 The Greek letter Γ (Gamma) stood for the lowest note according to the hand. Quirks can be found when looking at notation for "B". Look at the top of the pinky finger:
 
