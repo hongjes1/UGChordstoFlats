@@ -38,6 +38,37 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].isContentEditable = false;
 			break;
 		
+		case "B7":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B6":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb6";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "Bm7":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cbm7";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "Bm6":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cbm6";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "Bm":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cbm";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb";
+			chordEls[i].isContentEditable = false;
+			break;
+			
 		case "B/D#":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Cb/Eb";
@@ -74,11 +105,13 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].isContentEditable = false;
 			break;
 		
+		/*
 		case "E/G#":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Fb/Ab";
 			chordEls[i].isContentEditable = false;
 			break;
+		*/
 		case "G#m7":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Abm7";
@@ -223,6 +256,37 @@ for (var i = 0; i < diagramEls.length; i++)
 			diagramEls[i].isContentEditable = false;
 			break;
 		
+		case "B7":
+			diagramEls[i].isContentEditable = true;
+			diagramEls[i].innerHTML = "Cb7";
+			diagramEls[i].isContentEditable = false;
+			break;
+		case "B6":
+			diagramEls[i].isContentEditable = true;
+			diagramEls[i].innerHTML = "Cb6";
+			diagramEls[i].isContentEditable = false;
+			break;
+		case "Bm7":
+			diagramEls[i].isContentEditable = true;
+			diagramEls[i].innerHTML = "Cbm7";
+			diagramEls[i].isContentEditable = false;
+			break;
+		case "Bm6":
+			diagramEls[i].isContentEditable = true;
+			diagramEls[i].innerHTML = "Cbm6";
+			diagramEls[i].isContentEditable = false;
+			break;
+		case "Bm":
+			diagramEls[i].isContentEditable = true;
+			diagramEls[i].innerHTML = "Cbm";
+			diagramEls[i].isContentEditable = false;
+			break;
+		case "B":
+			diagramEls[i].isContentEditable = true;
+			diagramEls[i].innerHTML = "Cb";
+			diagramEls[i].isContentEditable = false;
+			break;
+		
 		case "B/D#":
 			diagramEls[i].isContentEditable = true;
 			diagramEls[i].innerHTML = "Cb/Eb";
@@ -249,11 +313,13 @@ for (var i = 0; i < diagramEls.length; i++)
 			diagramEls[i].isContentEditable = false;
 			break;
 		
+		/*
 		case "E/G#":
 			diagramEls[i].isContentEditable = true;
 			diagramEls[i].innerHTML = "Fb/Ab";
 			diagramEls[i].isContentEditable = false;
-			break;
+			break; 
+		*/
 		case "G#m7":
 			diagramEls[i].isContentEditable = true;
 			diagramEls[i].innerHTML = "Abm7";
