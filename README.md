@@ -72,6 +72,10 @@ A minor scale based around the note D would be as follows:
 
 D E F G A Bb C (D)
 
+Note in particular that:
+- sharps or flats can appear in different contexts, and
+- the contexts are usually separate; i.e. sharps usually don't appear in keys with flats, and vice versa.
+
 #### The UG Problem ####
 While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to address this.
 
