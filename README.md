@@ -1,3 +1,14 @@
+# Table of Contents
+1. About UGChordstoFlats
+  1. About EVO
+2. How to use
+3. Why care? A very brief Western music history/theory primer
+  1. The UG Problem
+4. Known bugs and shortcomings
+  1. New version
+  2. EVO
+  3. Both
+
 # About UGChordstoFlats
 As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
 For (guitar or ukulele) chord charts on the site Ultimate Guitar (www.ultimate-guitar.com/).
