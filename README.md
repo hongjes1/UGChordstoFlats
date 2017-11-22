@@ -1,13 +1,13 @@
 # Table of Contents
-1. About UGChordstoFlats
-  1. About EVO
-2. How to use
-3. Why care? A very brief Western music history/theory primer
-  1. The UG Problem
-4. Known bugs and shortcomings
-  1. New version
-  2. EVO
-  3. Both
+1. [About UGChordstoFlats](https://github.com/hongjes1/UGChordstoFlats/blob/master/README.md#about-ugchordstoflats)
+  1. [About EVO](https://github.com/hongjes1/UGChordstoFlats#about-evo)
+2. [How to use](https://github.com/hongjes1/UGChordstoFlats#how-to-use)
+3. [Why care? A very brief Western music history/theory primer](https://github.com/hongjes1/UGChordstoFlats#why-care-a-very-brief-western-music-historytheory-primer)
+  1. [The UG Problem](https://github.com/hongjes1/UGChordstoFlats#the-ug-problem)
+4. [Known bugs and shortcomings](https://github.com/hongjes1/UGChordstoFlats#known-bugs-and-shortcomings)
+  1. [New version](https://github.com/hongjes1/UGChordstoFlats#new-version)
+  2. [EVO](https://github.com/hongjes1/UGChordstoFlats#evo)
+  3. [Both](https://github.com/hongjes1/UGChordstoFlats#both)
 
 # About UGChordstoFlats
 As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
