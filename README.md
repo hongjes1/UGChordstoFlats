@@ -16,7 +16,7 @@ __toFlatsnew__ works on to-be-updated site, currently in beta for all contributo
 ![picture alt](https://i.imgur.com/hcqDIIh.png "Example of a chord chart formatted in the beta.")
 
 # How to use
-1. Open a tab's page. The page should end with "`_crd.htm`"; otherwise, the transposition and chord recognition interfaces do not apply.
+1. Open a tab's page. The page should end with "`chords_###`" or "`ukulele_###`" (for ukulele chord charts), where the number indicates the submission ID; otherwise, the transposition and chord recognition interfaces do not apply.
 2. Open the console. See [here](https://www.wickedlysmart.com/hfjsconsole/) if confused on how to achieve this on different browsers.
 3. Copy/paste the code into the console. Output should look like the below:
 
@@ -81,7 +81,12 @@ Note in particular that:
 While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to address this.
 
 # Known bugs and shortcomings
-- The javascript event onMouseOver will reset the chord names to their original value in the new tab version. This has something to do with external code.
-- The chord diagrams will not display on the EVO version; however, the chord names will not change.
-- Clicking a previously opened chord diagram with the changed name will revert the chord diagram's name to the original value.
+## New version
+- The javascript event onMouseOver will reset the chord names to their original value in the new tab interface. This has something to do with external code.
+- Clicking a previously opened chord diagram with the changed name will revert the chord's name to the original value within the chord diagram.
+
+## EVO
+- The chord diagrams will not display on the EVO version; however, the chord names will not change either.
+
+## Both
 - The code's set of chord names is severely limited and is not at all exhaustive. Example: E, Emaj, EM, and Emajor all will display E major chords (notes E-G#-B), but only chord of the first format are supported.
