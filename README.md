@@ -2,7 +2,8 @@
 As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
 For (guitar or ukulele) chord charts on the site Ultimate Guitar (www.ultimate-guitar.com/).
 
-__toFlats__ works on EVO engine only, accessible via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). The chord definitions and functionality will be updated soon; the EVO engine was unavailable for contributors for a period of time.
+__toFlats__ works on EVO engine only, accessible via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). The chord definitions and functionality has been updated and will be checked; the EVO engine was unavailable for contributors for a period of time.
+
 #### About EVO ####
 The EVO engine runs in a mostly-white background, includes an embedded YouTube interface, and can run in multiple languages (in an early beta). It also includes useful information about contributions and sorts contribution by both artist, name, and ultimately, type:
 - In a list of artist's contributions, all contributions with names N into one link:
@@ -10,7 +11,7 @@ The EVO engine runs in a mostly-white background, includes an embedded YouTube i
 - Clicking on a song title reveals a list of contributions, sorted by submission type:
 ![picture alt](https://i.imgur.com/nj3H02W.png "List of contributions for the song Lay Me Down, sorted by submission type")
 
-__toFlatsnew__ works on to-be-updated site, currently in beta for all contributors. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/p/pvris/whats_wrong_crd.htm) without the changes applied can be found below:
+__toFlatsnew__ works on to-be-updated site, currently in beta for all contributors. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/tab/pvris/whats_wrong_chords_2042995) without the changes applied can be found below:
 
 ![picture alt](https://i.imgur.com/hcqDIIh.png "Example of a chord chart formatted in the beta.")
 
@@ -68,7 +69,7 @@ __Minor scales__ also follow the note letter conditions, but the formula is as f
 
 N(+0) N+2 N+3 N+5 N+7 N+8 N+10 (N+12, octave, same note but higher)
 
-A minor scale based around the note D would be as follows:
+A (natural) minor scale based around the note D would be as follows:
 
 D E F G A Bb C (D)
 
