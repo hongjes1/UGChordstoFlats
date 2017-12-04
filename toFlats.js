@@ -1,5 +1,6 @@
 //evo only, will prevent user from using hover-over chord diagram
 //for use with Ultimate-Guitar.com chord charts
+
 var chordEls = document.getElementsByClassName("text-chord");
 
 for (var i = 0; i < chordEls.length; i++)
@@ -23,11 +24,59 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].innerHTML = "Bbm6";
 			chordEls[i].isContentEditable = false;
 			break;
+		case "A#maj7":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bbmaj7";
+			chordEls[i].isContentEditable = false;
+			break;
 		case "A#7":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Bb7";
 			chordEls[i].isContentEditable = false;
 			break;
+		
+		//special chords
+		case "A#7b9":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7-9";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7-9":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7-9";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7#5":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7+5";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7+5":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7+5";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7#11":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7+11";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7+11":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7+11";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7add4":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7add4";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#7add11":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb7add11";
+			chordEls[i].isContentEditable = false;
+			break;
+			
 		case "A#6":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Bb6";
@@ -38,11 +87,51 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].innerHTML = "Bbm";
 			chordEls[i].isContentEditable = false;
 			break;
+		
+		//added
+		case "A#-5":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb-5";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#aug":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bbaug";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#sus4":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bbsus4";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#sus2":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bbsus2";
+			chordEls[i].isContentEditable = false;
+			break;
+		
+		//major chord forms
 		case "A#":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Bb";
 			chordEls[i].isContentEditable = false;
 			break;
+		case "A#maj":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#M":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "A#major":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Bb";
+			chordEls[i].isContentEditable = false;
+			break;
+			
 		
 		case "B7":
 			chordEls[i].isContentEditable = true;
@@ -59,17 +148,94 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].innerHTML = "Cbm7";
 			chordEls[i].isContentEditable = false;
 			break;
+		case "Bmaj7":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cbmaj7";
+			chordEls[i].isContentEditable = false;
+			break;
 		case "Bm6":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Cbm6";
 			chordEls[i].isContentEditable = false;
 			break;
+		
+		//special chords
+		case "B7b9":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7-9";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7-9":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7-9";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7#5":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7+5";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7+5":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7+5";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7#11":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7+11";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7+11":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7+11";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7add4":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7add4";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "B7add11":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb7add11";
+			chordEls[i].isContentEditable = false;
+			break;
+		
 		case "Bm":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Cbm";
 			chordEls[i].isContentEditable = false;
 			break;
+			
+		//added
+		case "B-5":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb-5";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "Baug":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cbaug";
+			chordEls[i].isContentEditable = false;
+			break;
+		
+		//major chord forms
 		case "B":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "Bmaj":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "BM":
+			chordEls[i].isContentEditable = true;
+			chordEls[i].innerHTML = "Cb";
+			chordEls[i].isContentEditable = false;
+			break;
+		case "Bmajor":
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Cb";
 			chordEls[i].isContentEditable = false;
@@ -117,6 +283,7 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].innerHTML = "Fb/Ab";
 			chordEls[i].isContentEditable = false;
 			break;
+		resolution tendency of this is to Am, this is fine
 		*/
 		case "G#m7":
 			chordEls[i].isContentEditable = true;
@@ -149,7 +316,7 @@ for (var i = 0; i < chordEls.length; i++)
 			chordEls[i].isContentEditable = false;
 			break;
 
-		case "C#/F":
+		case "C#/F": //this is theoretically wrong
 			chordEls[i].isContentEditable = true;
 			chordEls[i].innerHTML = "Db/F";
 			chordEls[i].isContentEditable = false;
