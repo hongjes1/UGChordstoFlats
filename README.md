@@ -11,9 +11,9 @@
 
 # About UGChordstoFlats
 As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
-For (guitar or ukulele) chord charts on the site Ultimate Guitar (www.ultimate-guitar.com/).
+For (guitar or ukulele) chord charts on the site [Ultimate Guitar](www.ultimate-guitar.com/).
 
-__toFlats__ works on EVO engine only, accessible via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). The chord definitions and functionality has been updated and will be checked; the EVO engine was unavailable for contributors for a period of time.
+__toFlats__ only works on the EVO user interface, accessible via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). The chord definitions and functionality has been updated and will be checked; the EVO engine was unavailable for contributors for a period of time.
 
 #### About EVO ####
 The EVO engine runs in a mostly-white background, includes an embedded YouTube interface, and can run in multiple languages (in an early beta). It also includes useful information about contributions and sorts contribution by both artist, name, and ultimately, type:
@@ -22,9 +22,11 @@ The EVO engine runs in a mostly-white background, includes an embedded YouTube i
 - Clicking on a song title reveals a list of contributions, sorted by submission type:
 ![picture alt](https://i.imgur.com/nj3H02W.png "List of contributions for the song Lay Me Down, sorted by submission type")
 
-__toFlatsnew__ works on to-be-updated site, currently in beta for all contributors. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/tab/pvris/whats_wrong_chords_2042995) without the changes applied can be found below:
+__toFlatsnew__ works on the to-be-updated site, which is currently in beta for contributors only and dubbed *UG React*. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/tab/pvris/whats_wrong_chords_2042995) without the changes applied can be found below:
 
 ![picture alt](https://i.imgur.com/hcqDIIh.png "Example of a chord chart formatted in the beta.")
+
+[Back to top](#table-of-contents)
 
 # How to use
 1. Open a tab's page. The page should end with "`chords_###`" or "`ukulele_###`" (for ukulele chord charts), where the number indicates the submission ID; otherwise, the transposition and chord recognition interfaces do not apply.
@@ -88,6 +90,8 @@ Note in particular that:
 - sharps or flats can appear in different contexts, and
 - the contexts are usually separate; i.e. sharps usually don't appear in keys with flats, and vice versa.
 
+[Back to top](#table-of-contents)
+
 #### The UG Problem ####
 While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to address this.
 
@@ -101,3 +105,5 @@ While users are allowed to insert sharps and/or flats into their submissions, th
 
 ## Both
 - The code's set of chord names is severely limited and is not at all exhaustive. Example: E, Emaj, EM, and Emajor all will display E major chords (notes E-G#-B), but only chord of the first format are supported.
+
+[Back to top](#table-of-contents)
