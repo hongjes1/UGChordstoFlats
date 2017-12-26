@@ -1,13 +1,14 @@
 # Table of Contents
 1. [About UGChordstoFlats](#about-ugchordstoflats)
-  1. [About EVO](#about-evo)
+    1. [The EVO interface](#the-evo-interface)
+    2. [UG React, the new interface](#ug-react-the-new-interface)
 2. [How to use](#how-to-use)
 3. [Why care? A very brief Western music history/theory primer](#why-care-a-very-brief-western-music-historytheory-primer)
-  1. [The UG Problem](#the-ug-problem)
+    1. [The UG Problem](#the-ug-problem)
 4. [Known bugs and shortcomings](#known-bugs-and-shortcomings)
-  1. [New version](#new-version)
-  2. [EVO](#evo)
-  3. [Both](#both)
+    1. [New version](#new-version)
+    2. [EVO](#evo)
+    3. [Both](#both)
 
 # About UGChordstoFlats
 As annotated within code, changes basic chord chart sharp chords to flats. Most useful in the context of transposition.
@@ -15,13 +16,14 @@ For (guitar or ukulele) chord charts on the site [Ultimate Guitar](www.ultimate-
 
 __toFlats__ only works on the EVO user interface, accessible via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). The chord definitions and functionality has been updated and will be checked; the EVO engine was unavailable for contributors for a period of time.
 
-#### About EVO ####
+### The EVO interface ###
 The EVO engine runs in a mostly-white background, includes an embedded YouTube interface, and can run in multiple languages (in an early beta). It also includes useful information about contributions and sorts contribution by both artist, name, and ultimately, type:
 - In a list of artist's contributions, all contributions with names N into one link:
 ![picture alt](https://i.imgur.com/E6ZPltO.png "List of links by song name under artist Sam Smith")
 - Clicking on a song title reveals a list of contributions, sorted by submission type:
 ![picture alt](https://i.imgur.com/nj3H02W.png "List of contributions for the song Lay Me Down, sorted by submission type")
 
+### UG React, the new interface ###
 __toFlatsnew__ works on the to-be-updated site, which is currently in beta for contributors only and dubbed *UG React*. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/tab/pvris/whats_wrong_chords_2042995) without the changes applied can be found below:
 
 ![picture alt](https://i.imgur.com/hcqDIIh.png "Example of a chord chart formatted in the beta.")
@@ -34,6 +36,8 @@ __toFlatsnew__ works on the to-be-updated site, which is currently in beta for c
 3. Copy/paste the code into the console. Output should look like the below:
 
 ![picture alt](https://i.imgur.com/ekfpDOM.png "Example of a chord chart formatted in the beta, code run.")
+
+[Back to top](#table-of-contents)
 
 # Why care? A very brief Western music history/theory primer
 In the Western Classical musical system, there are seven letter names associated with seven pitch classes: A, B, C, D, E, F, and G. Each pitch class includes notes with the same letter name and sound, but just an integer exponential of 2 away.
@@ -90,10 +94,10 @@ Note in particular that:
 - sharps or flats can appear in different contexts, and
 - the contexts are usually separate; i.e. sharps usually don't appear in keys with flats, and vice versa.
 
-[Back to top](#table-of-contents)
-
 #### The UG Problem ####
 While users are allowed to insert sharps and/or flats into their submissions, the transposition feature defaults to sharps only, whether accurate or not. To compensate for situations where flats are appropriate for the situation, this short script was written to address this.
+
+[Back to top](#table-of-contents)
 
 # Known bugs and shortcomings
 ## New version
