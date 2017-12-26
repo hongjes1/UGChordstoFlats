@@ -109,5 +109,6 @@ While users are allowed to insert sharps and/or flats into their submissions, th
 
 ## Both
 - The code's set of chord names is severely limited and is not at all exhaustive. Example: E, Emaj, EM, and Emajor all will display E major chords (notes E-G#-B), but only chord of the first format are supported.
+- This is a simple text replacement algorithm. As such, replacing "B" with "Cb" will result in chords that are shifted one character to the right. This is similar to what happens with the transposition function as it currently functions on the site. (Dm-Bb-Gm takes fewer characters than Fm-Db-Bbm etc.) This is related to unchanged `span` sizes.
 
 [Back to top](#table-of-contents)
