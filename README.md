@@ -1,6 +1,6 @@
 # Table of Contents
 1. [About UGChordstoFlats](#about-ugchordstoflats)
-    1. [The EVO interface](#the-evo-interface)
+    1. [The EVO interface (NOTE: deprecated)](#the-evo-interface)
     2. [UG React, the new interface](#ug-react-the-new-interface)
 2. [How to use](#how-to-use)
 3. [Why care? A very brief Western music history/theory primer](#why-care-a-very-brief-western-music-historytheory-primer)
@@ -17,6 +17,7 @@ For (guitar or ukulele) chord charts on the site [Ultimate Guitar](www.ultimate-
 __toFlats__ only works on the EVO user interface, accessible via [this direct link](https://www.ultimate-guitar.com/?new_ug_exp=1). The chord definitions and functionality has been updated and will be checked; the EVO engine was unavailable for contributors for a period of time.
 
 ### The EVO interface ###
+**Note: The EVO interface has now been deprecated in favor of UG React.**
 The EVO engine runs in a mostly-white background, includes an embedded YouTube interface, and can run in multiple languages (in an early beta). It also includes useful information about contributions and sorts contribution by both artist, name, and ultimately, type:
 - In a list of artist's contributions, all contributions with names N into one link:
 ![picture alt](https://i.imgur.com/E6ZPltO.png "List of links by song name under artist Sam Smith")
@@ -24,7 +25,7 @@ The EVO engine runs in a mostly-white background, includes an embedded YouTube i
 ![picture alt](https://i.imgur.com/nj3H02W.png "List of contributions for the song Lay Me Down, sorted by submission type")
 
 ### UG React, the new interface ###
-__toFlatsnew__ works on the to-be-updated site, which is currently in beta for contributors only and dubbed *UG React*. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/tab/pvris/whats_wrong_chords_2042995) without the changes applied can be found below:
+__toFlatsnew__ works on the now-updated site, which is currently in beta for contributors only and dubbed *UG React*. An excerpt of [this chord chart](https://tabs.ultimate-guitar.com/tab/pvris/whats_wrong_chords_2042995) without the changes applied can be found below:
 
 ![picture alt](https://i.imgur.com/hcqDIIh.png "Example of a chord chart formatted in the beta.")
 
@@ -35,7 +36,7 @@ __toFlatsnew__ works on the to-be-updated site, which is currently in beta for c
 2. Open the console. See [here](https://www.wickedlysmart.com/hfjsconsole/) if confused on how to achieve this on different browsers.
 3. Copy/paste the code into the console. Output should look like the below:
 
-![picture alt](https://i.imgur.com/ekfpDOM.png "Example of a chord chart formatted in the beta, code run.")
+![picture alt](https://i.imgur.com/ekfpDOM.png "Example of a chord chart formatted in UG React, code run.")
 
 [Back to top](#table-of-contents)
 
@@ -106,6 +107,7 @@ While users are allowed to insert sharps and/or flats into their submissions, th
 
 ## EVO
 - The chord diagrams will not display on the EVO version; however, the chord names will not change either.
+- EVO is now deprecated.
 
 ## Both
 - The code's set of chord names is severely limited and is not at all exhaustive. Example: E, Emaj, EM, and Emajor all will display E major chords (notes E-G#-B), but only chord of the first format are supported.
